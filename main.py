@@ -16,7 +16,6 @@ def help(resp):
             if username == "Azazel":
                 bot.sendMessage(message['channel_id'], 'bro just look at the code its not that hard... its on the discord if u dumbass deleted it')
             print(username + "used help command")
-            bot.sendMessage(message['channel_id'], username)
             
 @bot.gateway.command
 def owohnb(resp):
@@ -27,6 +26,5 @@ def owohnb(resp):
             if username == "Azazel":
                 bot.sendMessage(message['channel_id'], 'owo b')
             print(username + "used owo hnb :)")
-            bot.sendMessage(message['channel_id'], username)
 
 bot.gateway.run(auto_reconnect=True)
