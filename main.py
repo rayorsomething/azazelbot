@@ -14,7 +14,7 @@ def help(resp):
         if message['content'].startswith('me.help'):
             username = message['author']['username']
             if username == "Azazel":
-                bot.sendMessage(message['channel_id'], 'bro just look at the code its not that hard... its on the discord if u dumbass deleted it')
+                bot.sendMessage(message['channel_id'], 'bro just look at the code its not that hard... its on the github if u dumbass deleted it')
             print(username + "used help command")
             
 @bot.gateway.command
